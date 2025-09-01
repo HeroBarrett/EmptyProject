@@ -43,5 +43,7 @@ module.exports = {
 
     // 关闭提交信息标题的最大长度限制（默认是72个字符）
     'header-max-length': [0, 'always', 72],
+    // 明确允许主题为空（越过主题为英文）
+    'subject-empty': [0],
   },
 }
