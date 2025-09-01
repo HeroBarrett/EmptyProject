@@ -1,0 +1,16 @@
+{
+  // 使用单引号而非双引号
+  "singleQuote": true,
+  // 不在语句末尾添加分号
+  "semi": false,
+  // 在对象字面量的大括号间添加空格，如 { foo: bar } 而非 {foo:bar}
+  "bracketSpacing": true,
+  // 忽略HTML中的空白符，不会因换行或空格影响格式化
+  "htmlWhitespaceSensitivity": "ignore",
+  // 自动检测并保持原有的行尾符号（LF/CRLF）
+  "endOfLine": "auto",
+  // 在多行结构（对象、数组等）的最后一个元素后添加尾随逗号
+  "trailingComma": "all",
+  // 设置缩进宽度为2个空格
+  "tabWidth": 2
+}
